@@ -1,8 +1,0 @@
-git status // always check status
-git init // used to initialize git. Note: do not run in a git enabled folder 
-git add --a //used to add a file to staging area or merge a modified file(double -staging and modified) into staging area
-git commit -m "message"
-touch .gitignore  //used to ignore files - add filenames to ignore in .gitignore
-git diff //compares with staging area working directory
-git diff --staged //compares pichla commit with staging area 
-
