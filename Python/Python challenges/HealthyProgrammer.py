@@ -12,8 +12,8 @@ def musicplay(file,stopper):
     #infinite loop
     mixer.music.play(loops=-1)
     while True:
-        a= input()
-        if a == stopper:
+        userip= input()
+        if userip == stopper:
             mixer.music.stop()
             break
 
