@@ -19,7 +19,7 @@ def prettify(location,dictfile,typefile):
             os.rename(name,name.capitalize())
     num=1
     for i in files:
-        #chech type of file and if it matches then rename it
+        #check type of file and if it matches then rename it
         try:
             if i.split(".")[1] == typefile:
                 os.rename(i, f"{num}.{typefile}")
@@ -29,7 +29,7 @@ def prettify(location,dictfile,typefile):
 
 if __name__ == '__main__':
     print("Enter your choices: ")
-    loc = input("Enter th path: ")
+    loc = input("Enter the path: ")
     print(os.listdir(loc))
     dictionaryfile = input("Enter your dictionary file: ")
     filetype = input("Enter the type of files you want to be renamed in numbered form: ")
